@@ -266,6 +266,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     NcmTetheringOverlay
 
+# Evolve
+PRODUCT_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/evolve
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
